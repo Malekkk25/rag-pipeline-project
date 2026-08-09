@@ -1,0 +1,5 @@
+Retrieval-Augmented Generation (RAG) is an architectural approach in artificial intelligence that enhances the output of Large Language Models (LLMs) by integrating external knowledge bases. Traditional LLMs are limited to the static data they were trained on, which can lead to outdated information or hallucinations when asked about domain-specific facts.
+
+RAG solves this by implementing a two-step process: retrieval and generation. During retrieval, the system searches an indexed vector database for relevant passages based on the user's query. During generation, these retrieved passages are inserted into the prompt as context, allowing the model to ground its response in precise, up-to-date information.
+
+Key components of a RAG pipeline include text document parsers, text chunkers, embedding models, vector databases (such as Chroma, FAISS, or Pinecone), and standard LLM inference APIs.

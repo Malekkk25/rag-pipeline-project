@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is Retrieval-Augmented Generation?",
+    "relevant_chunk_ids": ["Test.txt::0"]
+  },
+  {
+    "question": "Why use hybrid search combining dense embeddings and sparse BM25 retrieval?",
+    "relevant_chunk_ids": ["Test.txt::1"]
+  },
+  {
+    "question": "How does Reciprocal Rank Fusion (RRF) merge vector and keyword search scores?",
+    "relevant_chunk_ids": ["Test.txt::2"]
+  },
+  {
+    "question": "What is the purpose of cross-encoder reranking in production RAG pipelines?",
+    "relevant_chunk_ids": ["Test.txt::3"]
+  },
+  {
+    "question": "How does Natural Language Inference (NLI) detect hallucinations and verify citations?",
+    "relevant_chunk_ids": ["Test.txt::4"]
+  }
+]
